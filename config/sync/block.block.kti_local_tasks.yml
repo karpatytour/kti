@@ -1,0 +1,22 @@
+uuid: bb8eb66e-07eb-46cf-b751-d1a56987ca3d
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - kti
+_core:
+  default_config_hash: IzSbK3zk-Gon9y7WLEWop15Wn__7LeKzBJIXqajlb00
+id: kti_local_tasks
+theme: kti
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

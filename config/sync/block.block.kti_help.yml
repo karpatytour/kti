@@ -1,0 +1,22 @@
+uuid: 140d7d94-811a-4811-9ee8-aca5d902f503
+langcode: uk
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - kti
+_core:
+  default_config_hash: JPtjio142VL7z1Y-K1aWkTXu5wId7r4-zNUHozwLqf0
+id: kti_help
+theme: kti
+region: sidebar_second
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

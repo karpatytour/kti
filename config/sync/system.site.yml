@@ -1,0 +1,14 @@
+uuid: 0d8ba62d-d2f1-40cc-967c-3e43d0862c16
+name: 'Карпати тур інфо'
+mail: karpatytour.info@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: uk
+default_langcode: uk
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

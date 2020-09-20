@@ -1,0 +1,22 @@
+uuid: 7e6a151c-1679-41ec-a5de-a3ebc6babd4d
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kti
+_core:
+  default_config_hash: tZtWC6EKIYALVtpV4mPz79GsLZD6IFWb7Wk1B7Rd8Go
+id: kti_messages
+theme: kti
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  provider: system
+  label_display: '0'
+visibility: {  }

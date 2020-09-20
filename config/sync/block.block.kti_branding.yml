@@ -1,0 +1,25 @@
+uuid: 6502f8ff-ac19-4592-ae42-2b81f3b71a18
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kti
+_core:
+  default_config_hash: 0XmTH5dbJRl-fsDBgX10MzeFMarkhKpzU7ZGdGPfAMU
+id: kti_branding
+theme: kti
+region: secondary_menu
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

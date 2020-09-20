@@ -1,0 +1,20 @@
+uuid: 0e24968f-cc89-4d98-8aab-4c0f94856c7f
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - kti
+_core:
+  default_config_hash: rKurRLaH08AjwE5wsNzeL2fa77rF5pXKSR9WopsFYyI
+id: kti_local_actions
+theme: kti
+region: sidebar_second
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

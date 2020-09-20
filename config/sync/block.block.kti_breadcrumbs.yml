@@ -1,0 +1,22 @@
+uuid: c423ce38-7679-41f8-84db-3fbfe6e6d5d4
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kti
+_core:
+  default_config_hash: B4RbOEFqUHi5Wx38pRiZzYXo1hhKzCpF50HCAvpOYf4
+id: kti_breadcrumbs
+theme: kti
+region: breadcrumb
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

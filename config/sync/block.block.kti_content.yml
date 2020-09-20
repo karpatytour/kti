@@ -1,0 +1,22 @@
+uuid: 7b8996d8-155a-497e-8937-60af8a64f78e
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kti
+_core:
+  default_config_hash: aJ6ps0sJm9MtQffqINgRms1JaSQgjsg68REaPdN-BGk
+id: kti_content
+theme: kti
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

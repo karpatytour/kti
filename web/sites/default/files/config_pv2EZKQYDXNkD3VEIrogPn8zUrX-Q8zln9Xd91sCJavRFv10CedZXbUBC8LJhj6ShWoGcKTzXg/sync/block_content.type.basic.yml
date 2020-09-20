@@ -1,0 +1,10 @@
+uuid: 66597f2c-bbee-48ee-9457-ec2a8ad9836f
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zglzjmYxi0G0ag9MZ02y0LSJOdpWRwJxyP_OvFojFyo
+id: basic
+label: 'Простий блок'
+revision: 0
+description: 'Простий блок складається із заголовка і вмісту.'

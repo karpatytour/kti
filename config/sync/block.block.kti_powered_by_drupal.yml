@@ -1,0 +1,22 @@
+uuid: 3e02e57a-6da7-4196-9ed1-ae54c31cf2c6
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kti
+_core:
+  default_config_hash: pCYcyBIVbwKUmraga_6Ycz5P-bhQJLJS_8HtOFpMq-o
+id: kti_powered_by_drupal
+theme: kti
+region: footer_fifth
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

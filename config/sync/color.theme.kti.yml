@@ -1,0 +1,18 @@
+palette:
+  top: '#055a8e'
+  bottom: '#1d84c3'
+  bg: '#ffffff'
+  sidebar: '#f6f6f2'
+  sidebarborders: '#f9f9f9'
+  footer: '#292929'
+  button: '#00beff'
+  buttonhover: '#1864a5'
+  titleslogan: '#fffeff'
+  text: '#3b3b3b'
+  link: '#176487'
+logo: 'public://color/kti-c26d0234/logo.svg'
+stylesheets:
+  - 'public://color/kti-c26d0234/colors.css'
+files:
+  - 'public://color/kti-c26d0234/logo.svg'
+  - 'public://color/kti-c26d0234/colors.css'

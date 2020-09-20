@@ -1,0 +1,35 @@
+version: '3'
+services:
+  kti_php:
+    image: drupal:8-apache
+    container_name: kti_php
+    restart: always
+    ports:
+      - 9999:80
+    volumes:
+      - ./:/opt/drupal
+    networks:
+      - internal
+  kti_mysql:
+    image: mysql:5.7
+    container_name: kti_mysql
+    restart: always
+    command: --max_allowed_packet=32505856
+    networks:
+      - internal
+    ports:
+      - 33066:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: kti
+      MYSQL_USER: user
+      MYSQL_PASSWORD: user
+    volumes:
+      - ./docker/provision/mysql/init:/docker-entrypoint-initdb.d
+      - /data/mysql:/var/lib/mysql1 # Use bind mount
+      - /data/backups:/opt/db/backups1
+
+networks:
+  internal:
+    external:
+      name: internal
