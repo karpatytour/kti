@@ -88,3 +88,9 @@ docker-compose.override.yml
 /robots.txt
 /update.php
 /web.config
+
+# cache files
+web/sites/default/files/css
+web/sites/default/files/js
+web/sites/default/files/php
+web/sites/default/files/languages
