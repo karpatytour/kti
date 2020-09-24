@@ -12,8 +12,8 @@ _core:
   default_config_hash: aFKksJmiEhSztWNw-j-SbfzO88axvjNIZsjFBcNtI6o
 id: kti_footer
 theme: kti
-region: footer_fifth
-weight: -4
+region: footer_fourth
+weight: -7
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

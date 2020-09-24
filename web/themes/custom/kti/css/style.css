@@ -2,3 +2,10 @@
  * @file
  * Subtheme specific CSS.
  */
+
+.region-secondary-menu a {
+  color: #FFFFFF;
+}
+a.nav-link {
+  color: #FFFFFF;
+}
